@@ -1,3 +1,25 @@
+<?php 
+/*
+Flight::route('POST/rest/login', function() {
+	$requestData=Flight::request()->data;
+	try{
+		$username=$requestData->username;
+		$pwd=$requestData->pwd;
+		$loggedUser=LoginFunction($username,$pwd);
+
+		if($loggedUser==True) {
+			$_SESSION('user') == $requestData->username;
+		
+		Flight::json(['Login' -> True, 'Username' -> $requestData->username]);
+	}else{
+		Flight::json(['Login'->False]);
+	}
+	} catch(Exception $ex) {
+		Flight::halt(500,$ex->getMessage());
+	}
+});*/
+?> 
+
 <?php
 session_start();
 include_once 'dbconnect.php';
