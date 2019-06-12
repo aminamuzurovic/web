@@ -1,0 +1,19 @@
+{
+  "name": "flight-booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminamuzurovic/web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminamuzurovic/web/issues"
+  },
+  "homepage": "https://github.com/aminamuzurovic/web#readme"
+}
